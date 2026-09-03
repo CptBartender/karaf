@@ -78,9 +78,7 @@ public class MetaServiceCaller {
             try {
                 MetaTypeService metaService = context.getService(ref);
                 MetaInfo metaInfo = getMetatype(context, metaService, pid);
-                if (metaInfo != null) {
-                    return function.apply(metaInfo);
-                }
+                return function.apply(metaInfo);
             } finally {
                 context.ungetService(ref);
             }
