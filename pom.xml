@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
-        <version>38</version>
+        <version>39</version>
         <relativePath />
     </parent>
 
@@ -163,26 +163,26 @@
         <distributionManagement.snapshot.name>Apache Development Snapshot Repository</distributionManagement.snapshot.name>
         <distributionManagement.snapshot.url>https://repository.apache.org/content/repositories/snapshots</distributionManagement.snapshot.url>
 
-        <activemq.version>6.2.6</activemq.version>
+        <activemq.version>6.3.1</activemq.version>
         <aopalliance.version>1.0</aopalliance.version>
         <aspectj.version>1.9.21.1</aspectj.version>
-        <asm.version>9.10</asm.version>
+        <asm.version>9.10.1</asm.version>
         <jakarta.annotation.version>2.1.1</jakarta.annotation.version>
-        <awaitility.version>3.1.6</awaitility.version>
-        <bouncycastle.version>1.84</bouncycastle.version>
+        <awaitility.version>4.3.0</awaitility.version>
+        <bouncycastle.version>1.85</bouncycastle.version>
         <camel.version>4.18.2</camel.version>
         <cglib.version>3.2.9</cglib.version>
-        <cxf.version>3.6.10</cxf.version>
-        <jackson.annotations.version>2.21</jackson.annotations.version>
-        <jackson.version>2.21.4</jackson.version>
-        <jna.version>5.19.0</jna.version>
+        <cxf.version>4.2.3</cxf.version>
+        <jackson.annotations.version>2.22</jackson.annotations.version>
+        <jackson.version>2.22.2</jackson.version>
+        <jna.version>5.19.1</jna.version>
         <jaxb-bom.version>4.0.9</jaxb-bom.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <commons-codec.version>1.15</commons-codec.version>
         <commons-compress.version>1.28.0</commons-compress.version>
         <commons-fileupload.version>1.6.0</commons-fileupload.version>
         <commons-lang3.version>3.20.0</commons-lang3.version>
-        <commons-logging.version>1.3.6</commons-logging.version>
+        <commons-logging.version>1.4.0</commons-logging.version>
         <commons-pool2.version>2.12.0</commons-pool2.version>
         <commons-io.version>2.22.0</commons-io.version>
         <eclipselink.version>4.0.8</eclipselink.version>
@@ -213,7 +213,7 @@
         <equinox.coordinator.version>1.5.500</equinox.coordinator.version>
 
         <felix.bundlerepository.version>2.0.10</felix.bundlerepository.version>
-        <felix.cm.json.version>2.0.6</felix.cm.json.version>
+        <felix.cm.json.version>2.0.8</felix.cm.json.version>
         <felix.configadmin.version>1.9.26</felix.configadmin.version>
         <felix.configadmin.interpolation.plugin.version>1.2.8</felix.configadmin.interpolation.plugin.version>
         <felix.configurator.version>1.0.18</felix.configurator.version>
@@ -226,7 +226,7 @@
         <felix.gogo.runtime.version>1.1.6</felix.gogo.runtime.version>
         <felix.gogo.jline.version>1.1.8</felix.gogo.jline.version>
         <felix.httplite.version>0.1.6</felix.httplite.version>
-        <felix.http.version>1.2.0</felix.http.version>
+        <felix.http.version>2.0.4</felix.http.version>
         <felix.inventory.version>2.0.0</felix.inventory.version>
         <felix.maven-bundle-plugin.version>6.0.2</felix.maven-bundle-plugin.version>
         <felix.utils.version>1.11.8</felix.utils.version>
@@ -278,19 +278,19 @@
         <guava.version>23.0</guava.version>
         <narayana.version>5.13.1.Final</narayana.version>
         <hibernate.ejb.version>3.4.0.GA</hibernate.ejb.version>
-        <hibernate.version>7.4.0.Final</hibernate.version>
-        <hibernate.validator.version>7.0.5.Final</hibernate.validator.version>
+        <hibernate.version>7.4.5.Final</hibernate.version>
+        <hibernate.validator.version>8.0.5.Final</hibernate.validator.version>
         <httpclient.version>4.5.14</httpclient.version>
         <jansi.version>2.4.3</jansi.version>
         <javassist.version>3.9.0.GA</javassist.version>
-        <jline.version>4.1.3</jline.version>
+        <jline.version>4.3.1</jline.version>
         <junit.version>4.13.2</junit.version>
         <jsw.version>3.2.3</jsw.version>
-        <log4j.version>2.26.0</log4j.version>
+        <log4j.version>2.26.1</log4j.version>
         <maven.version>3.9.16</maven.version>
         <maven.wagon.version>3.5.3</maven.wagon.version>
         <maven-plugin-annotations.version>3.15.2</maven-plugin-annotations.version>
-        <maven.resolver.version>2.0.18</maven.resolver.version>
+        <maven.resolver.version>2.0.22</maven.resolver.version>
 
         <osgi.version>8.0.0</osgi.version>
         <org.osgi.annotation.bundle.version>2.0.0</org.osgi.annotation.bundle.version>
@@ -330,14 +330,14 @@
         <pax.swissbox.version>1.9.0</pax.swissbox.version>
         <pax.url.version>3.0.3</pax.url.version>
         <pax.web.version>11.1.1</pax.web.version>
-        <jetty.version>12.1.9</jetty.version>
+        <jetty.version>12.1.11</jetty.version>
         <pax.tinybundle.version>4.0.1</pax.tinybundle.version>
         <pax.jdbc.version>1.5.7</pax.jdbc.version>
         <pax.jms.version>1.1.3</pax.jms.version>
         <pax.transx.version>0.5.4</pax.transx.version>
 
         <portlet-api.version>2.0</portlet-api.version>
-        <plexus-utils.version>4.0.3</plexus-utils.version>
+        <plexus-utils.version>4.1.0</plexus-utils.version>
         <slf4j.version>2.0.18</slf4j.version>
 
         <spec.activation.version>2.1.4</spec.activation.version>
@@ -369,9 +369,9 @@
         <spring.security62.version>6.2.7</spring.security62.version>
 
         <sling.commons.johnzon.version>2.0.0</sling.commons.johnzon.version>
-        <sshd.version>2.18.0</sshd.version>
+        <sshd.version>2.19.0</sshd.version>
         <struts.version>1.3.10</struts.version>
-        <xbean.version>4.30</xbean.version>
+        <xbean.version>5.0.0</xbean.version>
         <jakarta.mail.version>2.0.2</jakarta.mail.version>
 
         <winsw.version>2.9.0</winsw.version>
